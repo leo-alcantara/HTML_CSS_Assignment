@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    width: 1024px;
+}
+
+.container{
+    background-color: black;  
+    border: 0;
+    height: 100px;
+    margin: 0;
+    padding-top: 25px;    
+    padding-left: 100px;
+}
+
+.img1{
+   float: left; 
+   padding-left: 30px;
+   padding-top: 10px;
+}
+
+.list-item-menu{
+    color: white;
+    display: inline;
+    float: left;
+    padding: 10px 30px 0 30px;
+    position: relative;  
+    
+}
+.list-item-menu:hover{
+color: #F0D9FF;
+}
+
+.log{
+    color: white;
+    margin-right: 0px;
+    margin-top: 20px;
+    padding: 100px 20px 0 150px;
+    text-decoration: none;
+}
+.log:hover{
+    color: #F0D9FF;
+}
+
+.main-header{
+    padding: 0 20px 0 20px;
+}
+
+.main{
+    background-color: #610094;
+    border: 0;
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+}
+
+.article1{
+    border: 0;
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 10px 30px 40px 20px;
+    position: relative;
+    width: 300px;
+}
+
+.article2{
+    border: 0;
+    color: white;
+    margin: 0;
+    padding: 10px 30px 30px 0px;
+    position: relative;
+    width: 650px;
+    
+}
+
+.parag{
+    display: inline-flexbox;
+    text-align:justify; 
+}
+
+.article-image{
+    width: 20%;
+}
+
+.side{
+    background-color: #664E88;
+    color: white;
+    height: 560px;
+    padding: 10px 30px 50px 20px;
+}
+
+.second{
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    position: relative;
+}
+
+.foot{
+    align-items: center;
+    background-color: #F0D9FF;
+    padding: 30px 10px;
+}
+
+.foot-text{
+    padding: 10px 0px 10px 400px; 
+}
+
+.form{
+    background-color: #664E88;
+    
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.form-style{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.log-body{
+    width: 1024px;
+}
+
+.list{
+    float: left ;
+}
+
+.button{
+  border: none;
+  color: #664E88;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+}
+
+.bold{
+    color: #664E88;
+
+}
+
+.ul1{
+    color: #610094;
+}
+
+.ul2{
+    color: #F0D9FF;
+}
