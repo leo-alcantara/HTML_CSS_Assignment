@@ -22,18 +22,18 @@ body {
 
 .item-main {
   grid-area: main;
-  background-color: rgb(215, 188, 241);
-  padding: 20px 30px;
+  background-color: rgb(233, 222, 243);
+  padding: 20px 50px;
 }
 
 .item-side {
   grid-area: side;
-  background-color: rgb(143, 82, 199);
+  background-color: rgb(197, 190, 190);
 }
 
 .item-footer {
   grid-area: footer;
-  background-color: rgb(173, 167, 167);
+  background-color: black;
   text-align: center;
 }
 
@@ -50,13 +50,20 @@ body {
   text-align: center;
 }
 
-.li-header {
-  font-family: Impact, sans-serif;
+.ul-header li {
+  
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   float: left;
   padding: 40px;
 }
 
-.li-header:hover {
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
   color: #d0a8eb;
 }
 
@@ -64,7 +71,8 @@ body {
   font-family: Impact, sans-serif;
   color: white;
   text-decoration: none;
-  padding: 40px 0 40px 0;
+  padding: 55px 0px 0 100px;
+  
 }
 
 .log:hover {
@@ -74,7 +82,6 @@ body {
 .main-header-title {
   color: rgb(96, 13, 163);
   font-family: "Ubuntu", sans-serif;
-
 }
 
 .main-header-parag {
@@ -87,34 +94,33 @@ body {
   width: 300px;
   float: left;
 }
-.article1-header{
-    font-family: Impact, sans-serif;
-    color: rgb(96, 13, 163);
+.article1-header {
+  font-family: Impact, sans-serif;
+  color: rgb(96, 13, 163);
 }
 
-.article1-parag1{
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-    color: rgb(96, 13, 163);
+.article1-parag1 {
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(96, 13, 163);
 }
 
-.article1-parag2{
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-    color: rgb(96, 13, 163);
+.article1-parag2 {
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(96, 13, 163);
 }
 
 .article2 {
-    margin: 0;
-    padding-left: 50px;
-    display: flow-root;
-    width: 300px;
-  
+  margin: 0;
+  padding-left: 50px;
+  display: flow-root;
+  width: 300px;
 }
 
-.article2-header{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(96, 13, 163);
+.article2-header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(96, 13, 163);
 }
 
 .article2-img {
@@ -123,28 +129,32 @@ body {
   float: right;
 }
 
-.article2-parag1{
-    font-family: Helvetica, sans-serif;
-    word-wrap: break-word;
-    text-align: justify;
-    color: rgb(96, 13, 163);
-    
+.article2-parag1 {
+  font-family: Helvetica, sans-serif;
+  word-wrap: break-word;
+  text-align: justify;
+  color: rgb(96, 13, 163);
 }
 
-.article2-parag2{
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-    color: rgb(96, 13, 163);
+.article2-parag2 {
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(96, 13, 163);
 }
 
-.item-side{
-    padding: 30px;
-    color: white;
-    font-family: Helvetica, sans-serif;
+.item-side {
+  padding: 30px;
+  color: white;
+  font-family: Helvetica, sans-serif;
 }
 
-.footer-text{
-    display: flow-root;
-    padding-top: 10px;
-    color: white;
+hr {
+  border-style: solid;
+  opacity: 50%;
+}
+
+.footer-text {
+  display: flow-root;
+  padding-top: 10px;
+  color: white;
 }
